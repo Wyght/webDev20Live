@@ -1,0 +1,227 @@
+/*
+URL for color theme
+https://colorhunt.co/palette/167377
+*/
+/*
+*****************************************************************
+elements
+*****************************************************************
+*/
+body {
+  background-color: #2DE0C8;
+  margin: 0;
+  padding: 0;
+  color: #198E96;
+  text-shadow: 1px 1px 2px #E2F8F7, 0 0 1em #E2F8F7, 0 0 0.2em #E2F8F7;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #E2F8F7;
+  text-shadow: 1px 1px 2px #35495e, 0 0 1em #35495e, 0 0 0.2em #35495e;
+  margin: 10px 15px;
+}
+
+h1 {
+  font-size: 3.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'New Rocker', serif;
+  letter-spacing: .3em;
+}
+
+hr {
+  border: none;
+  border-top: dotted;
+  border-width: 15px;
+  margin: 30px auto;
+  width: 8%;
+  color: #35495e33;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  border: none;
+  vertical-align: middle;
+}
+
+p {
+  color: #E2F8F7;
+  text-shadow: 1px 1px 2px #35495e, 0 0 1em #35495e, 0 0 0.2em #35495e;
+  line-height: 2;
+  width: 35%;
+  margin: 0 auto;
+}
+
+span {
+  letter-spacing: normal;
+}
+
+/*
+*****************************************************************
+class
+*****************************************************************
+*/
+.BottomCloud {
+  position: absolute;
+  top: 450px;
+  left: 650px;
+  ;
+}
+
+.bottom-container {
+  padding-left: 60px 0 60px 0;
+  background-color: #2DE0C8;
+}
+
+.btn {
+  background-color: #198E96;
+  border-radius: 28px;
+  border: 1px solid #1d4d4f;
+  display: inline-block;
+  cursor: pointer;
+  color: #e5dfdf;
+  font-size: 1.1em;
+  margin: 30px auto 15px auto;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #1d4d4f;
+  height: 30px;
+  width: 150px;
+}
+
+.btn:hover {
+  background-color: #2DE0C8;
+  /*6ba8a9;*/
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  padding-top: 100px;
+}
+
+.cRight {
+  margin-bottom: 30px;
+  font-family: 'Sacramento', cursive;
+  font-size: 1.25em;
+}
+
+.footer-link {
+  padding-top: 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e5dfdf;
+  color: #1d4d4f;
+}
+
+.footer-link:hover {
+  text-shadow: 0px 1px 0px #1d4d4f;
+  color: #e5dfdf;
+}
+
+.imgM {
+  margin-bottom: 10px;
+  margin: 0 auto 30px auto;
+}
+
+.imgSkills {
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+}
+
+.marginPHP {
+  margin-right: 20px;
+}
+
+.marginTop {
+  margin-top: 25px;
+}
+
+.middleColor {
+  color: #198E96;
+  text-shadow: none;
+}
+
+.middle-container {
+  background-color: #e5dfdf;
+}
+
+.mongoSize {
+  width: 175px;
+  height: 175px;
+}
+
+.myImg {
+  border-radius: 100%;
+  padding: 5px;
+  background-color: #198E96;
+}
+
+.myName {
+  margin-top: 5px;
+}
+
+.code-Logo {
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+  height: 125px;
+  width: 125px;
+  margin-top: -10px;
+  padding: 5px;
+  background-color: #e5dfdf;
+}
+
+.txtLeft {
+  text-align: left;
+}
+
+.txtRight {
+  text-align: right;
+  margin-top: 60px;
+}
+
+.TopCloud {
+  position: relative;
+  top: 5px;
+  left: 235px;
+}
+
+.top-container {
+  background-color: #2DE0C8;
+  width: 40%;
+  margin: 0 auto 30px auto;
+  background-color:
+}
+
+.W900 {
+  border-radius: 100%;
+  float: left;
+  margin: 15px 30px 50px 0;
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  background-color: #e5dfdf;
+}
+
+/*
+*****************************************************************
+pseudo class
+*****************************************************************
+*/
+.myName>h5 {
+  font-size: 1.25em;
+}
+
+.myName>p {
+  font-weight: 600;
+}

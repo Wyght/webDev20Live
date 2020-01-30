@@ -1,0 +1,102 @@
+/*
+color theme
+https://colorhunt.co/palette/167908
+  #ffba5a;
+  #ccedd2;
+  #c0ffb3;
+  #52de97;
+  #2c7873;
+*/
+body {
+  background-color: #ffba5aaa;
+  margin: 0;
+}
+
+.absol, .relat, .stati {
+  background-color: #ccedd2;
+  height: 155px;
+  width: 100%;
+  margin: 5px;
+}
+
+.top {
+  background-color: #c0ffb3;
+  display: inline-block;
+  height: 45px;
+  margin: 15px 5px 5px 15px;
+  width: 45px
+}
+
+.mid {
+  background-color: #52de97;
+  display: inline-block;
+  height: 45px;
+  margin: 15px 5px 5px 15px;
+  width: 45px
+}
+
+.bot {
+  background-color: #2c7873;
+  display: inline-block;
+  height: 45px;
+  margin: 15px 5px 5px 15px;
+  width: 45px
+}
+
+
+.relat > .mid{
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.stati > .mid{
+  position: static;
+  top: 50px;
+  left: 50px;
+}
+
+
+.absol > .mid{
+  position: absolute;
+  top: -10px;
+  left: 550px;
+}
+
+.absol > .top{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.topChallenge45{
+  height: 100px;
+  width: 100px;
+  background-color: #2c7873;
+  text-align: center;
+  }
+.midChallenge45{
+  position: absolute;
+  left: 108px;
+  height: 100px;
+  width: 100px;
+  background-color: #52de97;
+  text-align: center;
+  }
+.botChallenge45{
+  position: absolute;
+  bottom: 10px;
+  left: 208px;
+  height: 100px;
+  width: 100px;
+  background-color: #c0ffb3;
+  text-align: center;
+  }
+
+    .XX{
+      margin: 0;
+      height: 5px;
+      width: 3px;
+      background-color: aqua;
+      display: inline-block;
+    }
